@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex,combine,grid</title>
+
+    <style>
+body{
+    display: flex;
+    /* position: relative; */
+    
+    /* float: left; */
+    justify-content: center;
+}
+.a-container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+    top: 100px;
+}
+
+.a1{
+ height: 200px;
+ background-color: aqua;
+}
+
+.a2{
+    height: 200px;
+}
+
+.a3{
+    height: 200px;
+}
+
+.a4{
+    height: 200px;
+}
+
+.a5{
+    height: 200px;
+}
+
+.a6{
+    height: 200px;
+}
+
+.a7{
+    height: 200px;
+}
+
+.a8{
+    height: 200px;
+}
+
+.a9{
+    height: 200px;
+}
+
+.a10{
+    height: 200px;
+}
+
+@media (max-width:550px) {
+    .a-container{
+        /* display: flex;
+        flex-direction: row;
+        flex-basis: 400px; */
+
+        display: grid;
+        grid-template-columns: repeat(10, 200px);
+        /* grid-template-rows: ; */
+    }
+
+    
+}
+.a1{
+    
+    padding: 0px;
+    position: relative;
+}
+img{
+    width: 200px;
+    height: 200px;
+    /* align-self:start; */
+    position: absolute;
+    right: 0px;
+    /* top: 10px; */
+    bottom: 0px;
+
+}
+
+h4{
+    color: greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 1;
+    /* transform: translate(-100%,-100%); */
+    font-weight:bolder;
+    font-size: larger;
+    position: relative;
+    top: 100px;
+}
+
+a{
+    text-decoration-color: green;
+}
+ </style>
+
+</head>
+<body>
+    <div class="a-container">
+<div class="a1">1 <a href="./text5.html"> <h4>See more <br> beauty </h4> <img src="./Screenshot 2024-02-21 112455.png" alt="keyboard"/> </a></div>
+        <div class="a2" style="background-color: purple;">2</div>
+        <div class="a3" style="background-color: burlywood;">3</div>
+        <div class="a4" style="background-color: plum;">4</div>
+        <div class="a5" style="background-color: pink;">5</div>
+        <div class="a6" style="background-color: yellow;">6</div>
+        <div class="a7" style="background-color: plum;">7</div>
+        <div class="a8" style="background-color: purple;">8</div>
+        <div class="a9" style="background-color: aqua;">9</div>
+        <div class="a10" style="background-color: purple;">10</div>
+    </div>
+</body>
+</html>

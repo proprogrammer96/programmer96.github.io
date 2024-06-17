@@ -1,0 +1,21 @@
+@media (max-width:350px) {
+    .b1{
+        background-color: black;
+        height: 100px;
+        width: 200px;
+    }
+}
+
+@media (min-width:400px) {
+    .b2{
+        background-color: yellow;
+        height: 200px;
+        width: 50px;
+        border: 20px solid purple;
+    }
+
+    /* .b3 {
+       style: none;
+    } */
+}
+

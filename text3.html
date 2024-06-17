@@ -1,0 +1,81 @@
+<head>
+<style>
+.a-container{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(4, 100px);
+    justify-content: center;
+    /* color: blue; */
+position: relative;
+top: 100px;
+/* width: 400px; */
+}
+
+.a1{
+    color: green;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+    color: green;
+    font-weight: bolder;
+    font-size: 20pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 50px;
+    top: -80px;
+}
+
+.more{
+    text-decoration-color: green;
+}
+
+/* #container{
+    padding: 100px;
+    background-color: black;
+    position: absolute;
+}  */
+
+ @media (max-width:600px) {
+    /* body{
+        max-width: 300px;
+        position: relative;
+    } */
+
+    .a-container{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+        grid-template-rows: repeat(16, 200px);
+        gap: 10px;
+        justify-content: center;
+        
+    }
+ }
+</style>
+</head>
+
+<body>
+    <div id="container">
+    <div class="a-container">
+        <div class="a1" style="background-color: aqua;">1 <a class="more" href="./text4flex.html"> <h3>More Designs</h3></a> </div>
+        <div class="a2" style="background-color: purple;">2</div>
+        <div class="a3" style="background-color: burlywood;">3</div>
+        <div class="a4" style="background-color: plum;">4</div>
+        <div class="a5" style="background-color: pink;">5</div>
+        <div class="a6" style="background-color: yellow;">6</div>
+        <div class="a7" style="background-color: plum;">7</div>
+        <div class="a8" style="background-color: purple;">8</div>
+        <div class="a9" style="background-color: aqua;">9</div>
+        <div class="a10" style="background-color: purple;">10</div>
+        <div class="a11" style="background-color: rgba(6, 60, 166, 0.712);">11</div>
+        <div class="a12" style="background-color: #04fafa;">12</div>
+        <div class="a13" style="background-color: yellow;">13</div>
+        <div class="a14" style="background-color: bisque;">14</div>
+        <div class="a15" style="background-color: purple;">15</div>
+        <div class="a16" style="background-color: yellow;">16</div>
+    </div>
+</div>
+</body>
